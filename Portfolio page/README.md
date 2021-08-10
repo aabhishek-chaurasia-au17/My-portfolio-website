@@ -1,7 +1,57 @@
-# Responsive Portfolio Website Alexa
-## [Watch it on youtube](https://youtu.be/27JtRAI3QO8)
-### Responsive Portfolio Website Alexa
+# Responsive Portfolio Website Abhishek
+
+## Responsive Portfolio Website Abhishek
 Responsive Portfolio Website Using Html, Css and JavaScript, With a beautiful user interface. It contains a Header, Home, About, Skills, Qualification, Services, Portfolio, Project in mind, Testimonial, Contact and Footer.
-Don't forget to join the channel for more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
 
 ![Resume cv](/preview.png)
+
+* HOME
+home__social
+https://www.linkedin.com/
+https://dribbble.com/
+https://github.com/
+
+home__description
+High level experience in web design and development knowledge, producing quality work.
+
+
+* ABOUT
+about__description
+Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.
+
+    about__info-name
+    Years <br> experience
+    Completed <br> project
+    Companies <br> worked
+
+
+* SERVICES
+    services__modal-service
+    I develop the user interface.
+    Web page development.
+    I create ux element interactions.
+    I position your company brand.
+
+
+* PORTFOLIO
+    portfolio__description
+    Website adaptable to all devices, with ui components and animated interactions.
+
+
+* PROJECT
+    project__description
+    Contact me now and get a 30% discount on your new project.
+
+
+* TESTIMONIAL
+    testimonial__description
+    I get a good impression, I carry out my project with all the possible quality and attention and support 24 hours a day.
+
+
+* FOOTER
+    footer__social
+    https://www.facebook.com/
+    https://www.instagram.com/
+    https://twitter.com/
+
+

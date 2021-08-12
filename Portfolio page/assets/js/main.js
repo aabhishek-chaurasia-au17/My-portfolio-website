@@ -49,8 +49,8 @@ skillsHeader.forEach((el) =>{
 })
 
 /*==================== QUALIFICATION TABS ====================*/
-const tabs = document.querySelectorAll('[data-target]');
-const tabCantents = document.querySelectorAll('[data-content]');
+const tabs = document.querySelectorAll('[data-target]'),
+    tabCantents = document.querySelectorAll('[data-content]');
 
 tabs.forEach(tab =>{
     tab.addEventListener('click', () =>{
@@ -68,10 +68,33 @@ tabs.forEach(tab =>{
     })
     
 })
-/*==================== SERVICES MODAL ====================*/
 
+
+/*==================== SERVICES MODAL ====================*/
+const modalViews = document.querySelectorAll('.services_model'),
+      modalBtns = document.querySelectorAll('.services_button'),
+      modalCloses = document.querySelectorAll('.services_modal-close')
+
+let modal = function(modalClick){
+    modalViews[modalClick].classList.add('active-modal')
+} 
+
+modalBtns.forEach((modalBtn, i) => {
+    modalBtn.addEventListener('click', () =>{
+        modal(i)
+    })
+})
+
+modalCloses.forEach((modalClose) =>{
+    modalClose.addEventListener('click', () =>{
+        modalViews.forEach((modalView) =>{
+            modalView.classList.remove('active-modal')
+        })
+    })
+})
 
 /*==================== PORTFOLIO SWIPER  ====================*/
+
 
 
 /*==================== TESTIMONIAL ====================*/

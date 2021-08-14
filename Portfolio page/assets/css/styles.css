@@ -899,6 +899,7 @@ img{
     color: var(--title-color);
 }
 
+
 .contact_input{
     width: 100%;
     background-color: var(--input-color);
@@ -953,10 +954,10 @@ img{
 }
 
 .footer_copy{
+    margin-top: var(--mb-2-5);
     font-size: var(--small-font-size);
     text-align: center;
     color: var(--text-color-light);
-    margin-top: var(--mb-30);
 }
 
 .footer_title,
@@ -1172,8 +1173,10 @@ img{
         text-align: center;
     }
     .about_info{
-        justify-content: initial;
+        justify-content: space-evenly;
+         margin-bottom: var(--mb-2-5);
     }
+
     .qualification_tabs{
         justify-content: center;
     }
@@ -1228,11 +1231,11 @@ img{
     .footer_bg{
         padding: 3rem 0 3.5rem;
     }
-    .footer_link{
+    .footer_links{
         flex-direction: row;
-        column-gap: 2rem;
+        column-gap: 3rem;
     }
-    .footer_social{
+    .footer_socials{
         justify-self: flex-end;
     }
     .footer_copy{

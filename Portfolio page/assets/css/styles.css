@@ -900,7 +900,7 @@ img{
 }
 
 
-.contact_input{
+.contact_inputs{
     width: 100%;
     background-color: var(--input-color);
     color: var(--text-color);
@@ -1283,7 +1283,7 @@ img{
     .contact_form{
         width: 460px;
     }
-    .contact_input{
+    .contact_inputs{
         grid-template-columns: repeat(2, 1fr);
     }
 }
